@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>StolKringe</title>
 </head>
+
 <body>
+
+    <header class="head">
+        <h1>    Одаренные дети Югры
+            <a href="profile.html"><button>Профиль</button></a>
+            <a href="login.html"> <button>Войти</button> </a>
+            <a href="reg.html"><button>Регистрация</button></a>
+        </h1>
+    </header>
+
+    <main>
+        <a href="index.html">
+            <button>
+            </button>
+        </a>
+
+        <form autocomplete="on" method="post">       <!--Нужна ссылка куда кидать инфу-->
+            <fieldset>
+                <legend>Введите вашу почту</legend>
+                <input type="email" name="mail" placeholder="ivanborkalov@mail.ru">
+            </fieldset>
+            
+            <br>
+            
+            <fieldset>
+                <legend>Введите пороль</legend>
+                <input  type="password" name="password" placeholder="qwerty123">
+            </fieldset>
+
+            <br>
+            
+            <input type="submit" value="Отправить" formaction="profile.html" formmethod="post">
+        </form>
     
+    </main>
 </body>
+
 </html>
